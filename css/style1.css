@@ -1,0 +1,191 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family:"微软雅黑"; 
+    font-size:16px; 
+    color: #673929;
+
+}
+#header{
+    height:100px;
+    width:500px;
+    margin-bottom: 100px;
+    margin-right:250px;
+    float:left;
+
+}
+#img img{
+    margin-left:140px;
+    margin-top:70px;
+    width:60px;
+    height:60px;
+    border:2px solid white;
+    border-radius: 90px;
+    float:left;
+    margin-right: 20px;
+    
+}
+#img img:hover{
+    transition:all 0.5s linear;
+    border:2px solid black;
+
+}
+#cont{
+    float:right;
+    margin-top:74px;
+    margin-right: 30px;
+    font-size: 17px;
+    display: block;
+}
+.name{
+    font-size: 23px;
+    color:black;
+    text-decoration: none;
+}
+.name:hover{
+    color:#673929;
+}
+#cont p{
+    margin-top:10px;
+}
+#nav{
+    float:left;
+    margin-top:74px;
+
+    height:50px;
+    line-height: 30px;
+    font-size:23px;
+    color:white;
+    letter-spacing: 2px;
+    text-align: center；
+
+
+}
+#nav a{
+    margin:18px;
+     font-weight: bold;
+}
+#nav a:link{
+    color: #A80000;
+    text-decoration: none;
+}
+#nav a:visited{
+    color: #A80000;
+    text-decoration: none;
+}
+#nav a:hover{
+    text-shadow:2px 2px 4px #563D3D;
+    text-decoration: none;
+}
+#nav a:active{
+    color: #8B0F0F;
+    text-decoration: none;
+}
+#main{
+    clear:both; 
+    width: 100%;
+    height:500px;
+    margin-bottom: 70px;
+
+
+}
+#textcont{
+    float:left;
+    margin-top:50px;
+    margin-left:150px; 
+    width:500px; 
+}
+.feature{
+    height:25px;
+    line-height:25px;
+    width:100px;
+    font-weight: bold;
+    background: #A80000;
+    color:white;
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
+.p1{
+   
+    margin-bottom: 40px;
+    
+}
+.p1 a{
+    font-size: 40px;
+    font-weight: bolder;
+    color:black;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+.p2,.p3,.p4,.p5{
+   font:18px;
+   margin-bottom: 30px;
+   font-family:宋体;
+   color:black;
+
+
+   
+}
+#tree{
+  
+    float:right;
+    margin-right: 60px;
+    margin-top:180px; 
+
+}
+#tree img{
+    width:300px;
+    height:300px;
+}
+#lastcont{
+    clear:both;
+    width:600px;
+    height:40px;
+    line-height: 40px;
+    font-size: 13px;
+}
+#iconbot{
+    position: relative;
+}
+#iconbot img{
+    width:15px;
+    height:15px;       
+}
+#iconbot a{
+    text-decoration: none;
+    font-size:13px;
+    color: #673929;
+
+}
+.icon1{
+    width:150px;
+    position: absolute;
+    left:0px;
+}
+.icon2{
+    width:150px;
+    position: absolute;
+    left:120px;
+}
+.icon3{
+    width:150px;
+    position: absolute;
+    left:250px;
+}
+
+#footer{
+    height:60px; 
+    line-height: 60px;
+    font-size: 13px;
+    clear:both; /*新加代码*/
+    margin-top: 5px;
+    text-align: center;
+
+}
+#footer a{
+    text-decoration: none;
+    color:#673929;
+}
